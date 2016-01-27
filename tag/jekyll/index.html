@@ -3,13 +3,14 @@
 
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 
     <title>Posts Tagged &ldquo;jekyll&rdquo;</title>
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
 
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="canonical" href="http://misirlu13.github.io//tag/jekyll/">
 </head>
@@ -17,7 +18,7 @@
 
   <body>
 
-    <header class="site-header">
+    <!-- <header class="site-header">
 
   <div class="wrapper">
 
@@ -43,6 +44,10 @@
           
         
           
+          <a class="page-link" href="/blog/">Blog</a>
+          
+        
+          
         
           
           <a class="page-link" href="/tag/jekyll/index.html">Posts Tagged &ldquo;jekyll&rdquo;</a>
@@ -57,24 +62,36 @@
 
   </div>
 
-</header>
+</header> -->
 
+<nav class="white" role="navigation">
+  <div class="nav-wrapper container">
+    <a id="logo-container" href="#" class="brand-logo">Bradley Drake</a>
+    <ul class="right hide-on-med-and-down">
+      <li><a class="smooth-scroll" data-smooth-scroll="contact" href="#">Navbar Link</a></li>
+    </ul>
 
-    <div class="page-content">
-      <div class="wrapper">
-        <h2 class="post_title">Posts Tagged &ldquo;jekyll&rdquo;</h2>
+    <ul id="nav-mobile" class="side-nav">
+      <li><a class="smooth-scroll" data-smooth-scroll="contact" href="#">Navbar Link</a></li>
+    </ul>
+    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+  </div>
+</nav>
+
+    
+    <h2 class="post_title">Posts Tagged &ldquo;jekyll&rdquo;</h2>
 <ul>
   
   
   
   <li class="archive_list">
-    <time style="color:#666;font-size:11px;" datetime='{.{post.date | date: "%Y-%m-%d"}}'>01/20/16</time> <a class="archive_list_article_link" href='{.{post.url}}'>Welcome to Jekyll!</a>
+    <time style="color:#666;font-size:11px;" datetime='2016-01-20'>01/20/16</time> <a class="archive_list_article_link" href='/jekyll/update/2016/01/20/welcome-to-jekyll.html'>Welcome to Jekyll!</a>
     <p class="summary"></p>
     <ul class="tag_list">
       
-      <li class="inline archive_list"><a class="tag_list_link" href="/tag/{.{ tag }}">jekyll</a></li>
+      <li class="inline archive_list"><a class="tag_list_link" href="/tag/jekyll">jekyll</a></li>
       
-      <li class="inline archive_list"><a class="tag_list_link" href="/tag/{.{ tag }}">code</a></li>
+      <li class="inline archive_list"><a class="tag_list_link" href="/tag/code">code</a></li>
       
     </ul>
   </li>
@@ -84,10 +101,8 @@
   
   
 </ul>
-      </div>
-    </div>
 
-    <footer class="site-footer">
+    <!-- <footer class="site-footer">
 
   <div class="wrapper">
 
@@ -142,8 +157,47 @@
 
   </div>
 
-</footer>
+</footer> -->
 
+<footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/init.js"></script>
 
   </body>
 
