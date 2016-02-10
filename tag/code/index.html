@@ -64,20 +64,29 @@
 
 </header> -->
 
-<nav class="white" role="navigation">
-  <div class="nav-wrapper container">
-    <a id="logo-container" href="#" class="brand-logo">Bradley Drake</a>
-    <ul class="right hide-on-med-and-down">
-      <li><a class="smooth-scroll" data-smooth-scroll="contact" href="#">Navbar Link</a></li>
-    </ul>
+<div class="navbar-fixed">
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Bradley Drake</a>
+      <ul class="right hide-on-med-and-down top-nav-items">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#lab">Lab</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
 
-    <ul id="nav-mobile" class="side-nav">
-      <li><a class="smooth-scroll" data-smooth-scroll="contact" href="#">Navbar Link</a></li>
-    </ul>
-    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-  </div>
-</nav>
-
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#lab">Lab</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+</div>
     
     <h2 class="post_title">Posts Tagged &ldquo;code&rdquo;</h2>
 <ul>
@@ -159,7 +168,7 @@
 
 </footer> -->
 
-<footer class="page-footer teal">
+<footer id="contact" class="page-footer teal scrollspy">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
@@ -190,12 +199,12 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
       </div>
     </div>
   </footer>
 
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/wow.min.js"></script>
 <script src="js/materialize.min.js"></script>
 <script src="js/init.js"></script>
 
